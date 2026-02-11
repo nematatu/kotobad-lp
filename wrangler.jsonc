@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kotobad-lp",
+  "compatibility_date": "2026-02-11",
+  "main": "./src/App.tsx"
+}

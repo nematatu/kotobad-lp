@@ -4,8 +4,65 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: "TsunagiGothic";
+  src: url("./assets/font/TsunagiGothic-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MOBO";
+  src: url("./assets/font/MOBO/MOBO-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MOBO";
+  src: url("./assets/font/MOBO/MOBO-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MOBO";
+  src: url("./assets/font/MOBO/MOBO-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MOBO";
+  src: url("./assets/font/MOBO/MOBO-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Yukiguni";
+  src: url("./assets/font/Yukiguni-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer utilities {
+    .font-yukiguni {
+        font-family: "Yukiguni", "TsunagiGothic", "Noto Sans JP", sans-serif;
+    }
+    .font-tsunagi {
+        font-family: "TsunagiGothic", "MOBO", "Noto Sans JP", sans-serif;
+    }
+}
+
 :root {
-  font-family: "Noto Sans", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "MOBO", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 

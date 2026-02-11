@@ -2,9 +2,11 @@ import { Iphone } from '@/components/ui/iphone'
 
 export default function Mock() {
   return (
-    <Iphone
-      src="https://placehold.co/900x1600?text=kotobad+LP"
-      className="drop-shadow-[0_28px_60px_rgba(8,47,73,0.5)]"
-    />
+    <div className="w-[210px] sm:w-[260px] md:w-[320px] lg:w-[380px]">
+      <Iphone
+        src="https://family-reminder-9ab33.web.app/img/mv.png"
+        className="drop-shadow-[0_24px_36px_rgba(2,6,23,0.25)]"
+      />
+    </div>
   )
 }
